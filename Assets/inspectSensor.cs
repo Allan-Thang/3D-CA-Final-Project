@@ -24,4 +24,5 @@ public class inspectSensor : MonoBehaviour
         controller.SetBool("idleReady", false);
         controller.SetBool("walkStopReady", false);
     }
+
 }
