@@ -21,6 +21,7 @@ public class inspectSensor : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         controller.SetBool("inspectReady", true);
+        controller.SetBool("idleReady", false);
         controller.SetBool("walkStopReady", false);
     }
 }

@@ -278,27 +278,14 @@ GameObject:
   - component: {fileID: 62537824}
   - component: {fileID: 62537823}
   - component: {fileID: 62537822}
-  - component: {fileID: 62537821}
+  - component: {fileID: 62537826}
   m_Layer: 0
-  m_Name: lookAroundSensor
+  m_Name: inspectSensor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &62537821
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 62537820}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27acecdd6b80734478b3c4475701ac9f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  controller: {fileID: 1483552519}
 --- !u!65 &62537822
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -377,6 +364,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &62537826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62537820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 144b2c2188b05f44f8170e790411a617, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1483552519}
 --- !u!1001 &68734423
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5611,7 +5611,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 97524511}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 412.69, y: 26.2, z: 70.95}
+  m_LocalPosition: {x: 412.15, y: 26.2, z: 70.95}
   m_LocalScale: {x: 2, y: 3, z: 15}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10156,7 +10156,7 @@ GameObject:
   - component: {fileID: 1582239032}
   - component: {fileID: 1582239036}
   m_Layer: 0
-  m_Name: inspectSensor
+  m_Name: crouchSensor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10249,7 +10249,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1582239030}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 144b2c2188b05f44f8170e790411a617, type: 3}
+  m_Script: {fileID: 11500000, guid: f4c59349dbd1e974e9e4613389c98b8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 1483552519}

@@ -23,5 +23,6 @@ public class idleSensor : MonoBehaviour
         controller.SetBool("idleReady", true);
         controller.SetBool("walkReady", false);
         controller.SetBool("lookAroundReady", false);
+        controller.SetBool("inspectReady", false);
     }
 }

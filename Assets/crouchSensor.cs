@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class walkingSensor : MonoBehaviour
+public class crouchSensor : MonoBehaviour
 {
     public Animator controller;
 
@@ -20,9 +20,7 @@ public class walkingSensor : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        controller.SetBool("walkReady", true);
-        controller.SetBool("idleReady", false);
-        controller.SetBool("inspectReady", false);
-        controller.SetBool("crouchReady", false);
+        controller.SetBool("crouchReady", true);
+        controller.SetBool("walkStopReady", false);
     }
 }
