@@ -525,12 +525,12 @@ GameObject:
   - component: {fileID: 87220068}
   - component: {fileID: 87220067}
   m_Layer: 0
-  m_Name: Particle System (Snow)
+  m_Name: Snowing Effect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!199 &87220067
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -8180,6 +8180,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WWGPistol_0
       objectReference: {fileID: 0}
+    - target: {fileID: 124344, guid: d970922f1aa657c448a0761a9ee6420f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 468740, guid: d970922f1aa657c448a0761a9ee6420f, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -9866,7 +9870,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!199 &1286818935
 ParticleSystemRenderer:
   serializedVersion: 6
