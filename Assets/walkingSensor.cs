@@ -24,5 +24,6 @@ public class walkingSensor : MonoBehaviour
         controller.SetBool("idleReady", false);
         controller.SetBool("inspectReady", false);
         controller.SetBool("crouchReady", false);
+        controller.SetBool("drawingReady", false);
     }
 }
