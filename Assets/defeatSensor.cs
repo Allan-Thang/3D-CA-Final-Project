@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class idleSensor : MonoBehaviour
+public class defeatSensor : MonoBehaviour
 {
     public Animator controller;
 
@@ -20,11 +20,7 @@ public class idleSensor : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        controller.SetBool("idleReady", true);
-        controller.SetBool("walkReady", false);
-        controller.SetBool("lookAroundReady", false);
-        controller.SetBool("inspectReady", false);
-        controller.SetBool("shootingReady", false);
-        controller.SetBool("defeatReady", false);
+        controller.SetBool("defeatReady", true);
+        controller.SetBool("idleReady", false);
     }
 }
