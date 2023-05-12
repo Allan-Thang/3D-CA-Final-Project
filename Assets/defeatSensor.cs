@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class defeatSensor : MonoBehaviour
 {
+
     public Animator controller;
 
     // Start is called before the first frame update
@@ -21,6 +22,7 @@ public class defeatSensor : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         controller.SetBool("defeatReady", true);
+        controller.SetBool("terrifiedReady", false);
         controller.SetBool("idleReady", false);
     }
 }
