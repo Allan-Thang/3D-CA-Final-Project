@@ -22,6 +22,7 @@ public class shootingSensor : MonoBehaviour
     {
         controller.SetBool("shootingReady", true);
         controller.SetBool("idleReady", false);
+        controller.SetBool("breathingidleReady", false);
     }
 
     private void OnTriggerExit(Collider other)

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class pistolIdle : MonoBehaviour
+public class pistolIdleSensorBlake : MonoBehaviour
 {
     public Animator controller;
 
