@@ -6530,6 +6530,7 @@ GameObject:
   - component: {fileID: 299230818}
   - component: {fileID: 299230820}
   - component: {fileID: 299230819}
+  - component: {fileID: 299230821}
   m_Layer: 0
   m_Name: Camera 5 -6
   m_TagString: Untagged
@@ -6551,7 +6552,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 604275638}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.00004235202, y: 359.9444, z: 0.09710282}
 --- !u!81 &299230819
 AudioListener:
   m_ObjectHideFlags: 0
@@ -6603,6 +6604,27 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!95 &299230821
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 299230817}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &302427688
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19053,7 +19075,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.148e-41, y: NaN, z: 2.3509887e-38, w: -4.3370734e-19}
+  m_BoundingSphereOverride: {x: 2.8e-44, y: 3e-44, z: 3.1e-44, w: 3.2e-44}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -27438,6 +27460,8 @@ PlayableDirector:
     value: {fileID: 0}
   - key: {fileID: 1900865047677915164, guid: 21c50248687ce724cbd461ea8f7231c7, type: 2}
     value: {fileID: 463781672}
+  - key: {fileID: -585250381440773234, guid: 21c50248687ce724cbd461ea8f7231c7, type: 2}
+    value: {fileID: 299230821}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &2016478577
