@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 426
     width: 1163
     height: 156
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -75,7 +75,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 89
+  controlID: 141
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -126,7 +126,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 300}
   m_MaxSize: {x: 24288, y: 24288}
   vertical: 0
-  controlID: 86
+  controlID: 155
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -276,7 +276,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 300}
   m_MaxSize: {x: 16192, y: 24288}
   vertical: 1
-  controlID: 87
+  controlID: 19
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -301,7 +301,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 0
-  controlID: 88
+  controlID: 20
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -417,8 +417,8 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 515
-    width: 1103
+    y: 499
+    width: 1162
     height: 135
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -429,14 +429,14 @@ MonoBehaviour:
     m_KeySerializationHelper:
     - {fileID: -4801208214928616287, guid: 22c3cf5af9a30a44cbfce8b3d07d7f50, type: 2}
     m_ValueSerializationHelper:
-    - e00: 0.47095522
+    - e00: 0.40031195
       e01: 0
       e02: 0
-      e03: 173.76834
+      e03: 220.75313
       e10: 0
-      e11: 0.47095522
+      e11: 0.40031195
       e12: 0
-      e13: 32.966873
+      e13: 34.871834
       e20: 0
       e21: 0
       e22: 1
@@ -503,21 +503,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Jack\Desktop\3D Computer Animation\3D-CA-Final-Project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 96}
-    m_SelectedIDs: 30620000
-    m_LastClickedID: 25136
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: e2600000
+    m_LastClickedID: 24802
     m_ExpandedIDs: 00000000e2600000e4600000e6600000e8600000ea600000ec60000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -573,7 +573,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -675,10 +675,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 3c6d0000
-      m_LastClickedID: 27964
-      m_ExpandedIDs: 968affffacbfffff66f4ffff38fbffff7e660000
+      scrollPos: {x: 0, y: 300}
+      m_SelectedIDs: 06f2ffff
+      m_LastClickedID: -3578
+      m_ExpandedIDs: 38fbffff0a5c0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -694,7 +694,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 7}
+        m_ClientGUIView: {fileID: 4}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -823,9 +823,9 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: -155, y: -104}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
+      snapCorner: 3
       id: Scene View/Camera
       index: 1
       layout: 4
@@ -1014,9 +1014,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.10092215, y: -0.75153786, z: 0.11852923, w: -0.6410588}
   m_Size:
-    m_Target: 17.31945
+    m_Target: 13.7022
     speed: 2
-    m_Value: 17.31945
+    m_Value: 13.7022
   m_Ortho:
     m_Target: 0
     speed: 2
