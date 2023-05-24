@@ -5,6 +5,7 @@ using UnityEngine;
 public class cameraShake : MonoBehaviour
 {
     public bool start = false;
+    public AnimationCurve curve;
     public float duration = 1f;
 
     // Update is called once per frame
@@ -25,7 +26,8 @@ public class cameraShake : MonoBehaviour
         while (elapsedTime < duration)
         {
             elapsedTime += Time.deltaTime;
-            transform.position = startPosition + Random.insideUnitSphere;
+            float strength = curve.Evaluate(elapsedTime / duration);
+            transform.position = startPosition + Random.insideUnitSphere * strength;
             yield return null;
         }
 

@@ -315,6 +315,57 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   start: 0
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0.22541049
+      outSlope: 0.22541049
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.30550772
+      value: 0.06886464
+      inSlope: 0.06646337
+      outSlope: 0.06646337
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.6011968
+      value: 0.041518208
+      inSlope: -0.11122229
+      outSlope: -0.11122229
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.8742942
+      value: 0.006026241
+      inSlope: -0.088950045
+      outSlope: -0.088950045
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -0.047939252
+      outSlope: -0.047939252
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   duration: 1
 --- !u!1 &1009467965
 GameObject:
