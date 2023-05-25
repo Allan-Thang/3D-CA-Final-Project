@@ -169,7 +169,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3d08cb43062c8c49bfe78a8d467fefa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  start: 0
+  start: 1
   curve:
     serializedVersion: 2
     m_Curve:
@@ -14384,6 +14384,8 @@ PlayableDirector:
     value: {fileID: 0}
   - key: {fileID: 3159090875151285351, guid: a1873a2aa1ce7294fa3e395f7495bc74, type: 2}
     value: {fileID: 411077987}
+  - key: {fileID: -8617749084996672212, guid: a1873a2aa1ce7294fa3e395f7495bc74, type: 2}
+    value: {fileID: 1443457}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &789210614
@@ -19857,6 +19859,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 747065588}
+  camera: {fileID: 1443461}
 --- !u!65 &1948351255
 BoxCollider:
   m_ObjectHideFlags: 0

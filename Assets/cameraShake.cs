@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class cameraShake : MonoBehaviour
 {
-    public bool start = false;
+    public bool start = true;
     public AnimationCurve curve;
     public float duration = 1f;
 
     // Update is called once per frame
     void Update()
     {
-        if (start)
+        if (start && Time.time > 2.0f)
         {
             start = false;
             StartCoroutine(Shaking());

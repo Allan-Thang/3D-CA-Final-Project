@@ -5,6 +5,7 @@ using UnityEngine;
 public class shootingSensor : MonoBehaviour
 {
     public Animator controller;
+    public Camera camera;
 
     // Start is called before the first frame update
     void Start()
