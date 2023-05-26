@@ -338,7 +338,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 84.98333333333333
+    m_Start: 81.98333333333333
     m_ClipIn: 0
     m_Asset: {fileID: 7200648677145647999}
     m_Duration: 4.9999964396158845
@@ -698,7 +698,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 89.98332977294922
+    m_Start: 86.98332977294922
     m_ClipIn: 0
     m_Asset: {fileID: 7371448091932415646}
     m_Duration: 67.499999999999
@@ -2120,7 +2120,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 89.98332977294922
+    m_Start: 86.98332977294922
     m_ClipIn: 0
     m_Asset: {fileID: -5938063278584310798}
     m_Duration: 2.0166702270507812
@@ -2596,7 +2596,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 75
+    m_Start: 72
     m_ClipIn: 0
     m_Asset: {fileID: -235996959346291656}
     m_Duration: 9.983333333333334
@@ -2689,7 +2689,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 92
+    m_Start: 89
     m_ClipIn: 0
     m_Asset: {fileID: -6705429358689834592}
     m_Duration: 3
@@ -4020,7 +4020,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: soft-snow-footsteps
   - m_Version: 1
-    m_Start: 75
+    m_Start: 72
     m_ClipIn: 0
     m_Asset: {fileID: -2376079507067849003}
     m_Duration: 7.164895833333333
@@ -4071,7 +4071,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: soft-snow-footsteps
   - m_Version: 1
-    m_Start: 82.16489583333333
+    m_Start: 79.16489583333333
     m_ClipIn: 0
     m_Asset: {fileID: -5693272355329887967}
     m_Duration: 2.8184375000000017

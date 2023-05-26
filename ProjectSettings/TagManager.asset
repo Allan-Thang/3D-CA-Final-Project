@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - lb_bird
+  - lb_groundTarget
+  - lb_perchTarget
+  - lb_controller
   layers:
   - Default
   - TransparentFX
@@ -11,8 +15,8 @@ TagManager:
   - lantern
   - Water
   - UI
-  - 
-  - 
+  - terrain
+  - Post Processing
   - 
   - 
   - 
