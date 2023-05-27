@@ -21,6 +21,10 @@ public class shootingSensor : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        if (other.gameObject.tag.Equals("lb_bird"))
+            return;
+        if (!other.gameObject.tag.Equals("Player"))
+            return;
         controller.SetBool("shootingReady", true);
         controller.SetBool("idleReady", false);
         controller.SetBool("breathingidleReady", false);
@@ -28,6 +32,10 @@ public class shootingSensor : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
+        if (other.gameObject.tag.Equals("lb_bird"))
+            return;
+        if (!other.gameObject.tag.Equals("Player"))
+            return;
         controller.SetBool("shootingReady", false);
         controller.SetBool("idleReady", true);
     }

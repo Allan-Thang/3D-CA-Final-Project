@@ -20,6 +20,10 @@ public class drawGunSensor : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        if (other.gameObject.tag.Equals("lb_Bird"))
+            return;
+        if (!other.gameObject.tag.Equals("Player"))
+            return;
         controller.SetBool("drawingReady", true);
     }
 }

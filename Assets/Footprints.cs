@@ -32,7 +32,7 @@ public class Footprints : MonoBehaviour
         RaycastHit hit;
         Physics.Raycast(isLeft ? leftFoot.position : rightFoot.position, Vector3.down, out hit, float.MaxValue, terrain);
         //Debug.Log(lastPos + " " + hit.point + " " + Vector3.Distance(lastPos, hit.point));
-        if (Vector3.Distance(lastPos,hit.point) >= footprintDist)
+        if (Vector3.Distance(lastPos,hit.point) >= footprintDist && hit.point != Vector3.zero)
         {
             lastPos = hit.point;
             Instantiate(isLeft? LeftPrint : RightPrint, lastPos + Vector3.up*0.05f, Quaternion.identity);

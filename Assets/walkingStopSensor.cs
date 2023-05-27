@@ -20,6 +20,10 @@ public class walkingStopSensor : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        if (other.gameObject.tag.Equals("lb_bird"))
+            return;
+        if (!other.gameObject.tag.Equals("Player"))
+            return;
         controller.SetBool("walkStopReady", true);
         controller.SetBool("walkReady", false);
     }

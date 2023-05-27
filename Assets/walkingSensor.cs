@@ -20,6 +20,10 @@ public class walkingSensor : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        if (other.gameObject.tag.Equals("lb_bird"))
+            return;
+        if (!other.gameObject.tag.Equals("Player"))
+            return;
         controller.SetBool("walkReady", true);
         controller.SetBool("idleReady", false);
         controller.SetBool("inspectReady", false);

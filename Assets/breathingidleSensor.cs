@@ -20,6 +20,10 @@ public class breathingidleSensor : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        if (other.gameObject.tag.Equals("lb_bird"))
+            return;
+        if (!other.gameObject.tag.Equals("Player"))
+            return;
         controller.SetBool("breathingidleReady", true);
         controller.SetBool("walknotorchReady", false);
     }

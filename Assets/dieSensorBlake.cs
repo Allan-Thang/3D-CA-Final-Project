@@ -20,6 +20,10 @@ public class dieSensorBlake : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        if (other.gameObject.tag.Equals("lb_bird"))
+            return;
+        if (!other.gameObject.tag.Equals("Player"))
+            return;
         controller.SetBool("deadReady", true);
         controller.SetBool("pistolIdleReady", false);
     }

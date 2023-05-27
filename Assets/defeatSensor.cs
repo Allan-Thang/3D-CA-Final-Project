@@ -21,6 +21,10 @@ public class defeatSensor : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        if (other.gameObject.tag.Equals("lb_bird"))
+            return;
+        if (!other.gameObject.tag.Equals("Player"))
+            return;
         controller.SetBool("defeatReady", true);
         controller.SetBool("terrifiedReady", false);
         controller.SetBool("idleReady", false);

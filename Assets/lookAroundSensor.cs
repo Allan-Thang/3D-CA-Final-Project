@@ -20,12 +20,20 @@ public class lookAroundSensor : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        if (other.gameObject.tag.Equals("lb_bird"))
+            return;
+        if (!other.gameObject.tag.Equals("Player"))
+            return;
         controller.SetBool("lookAroundReady", true);
         controller.SetBool("idleReady", false);
     }
 
     private void OnTriggerExit(Collider other)
     {
+        if (other.gameObject.tag.Equals("lb_bird"))
+            return;
+        if (!other.gameObject.tag.Equals("Player"))
+            return;
         controller.SetBool("lookAroundReady", false);
         controller.SetBool("idleReady", true);
     }

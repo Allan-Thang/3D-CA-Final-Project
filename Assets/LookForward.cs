@@ -14,6 +14,7 @@ public class LookForward : MonoBehaviour
     void Update()
     {
         Quaternion lookRotate = Quaternion.LookRotation(Vector3.forward, Vector3.up);
+        if (Quaternion.Angle(lookRotate,transform.rotation) > 10)
         transform.rotation = Quaternion.RotateTowards(transform.rotation, lookRotate, 180 * Time.deltaTime);
     }
 

@@ -20,6 +20,10 @@ public class pistolIdleSensorBlake : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        if (other.gameObject.tag.Equals("lb_bird"))
+            return;
+        if (!other.gameObject.tag.Equals("Player"))
+            return;
         controller.SetBool("pistolIdleReady", true);
     }
 }
