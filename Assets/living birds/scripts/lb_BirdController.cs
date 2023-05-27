@@ -149,7 +149,10 @@ public class lb_BirdController : MonoBehaviour {
     {
 		if (!currentCamera.gameObject.activeInHierarchy)
         {
-			currentCamera = Camera.main;
+            if (Camera.main)
+			{
+				currentCamera = Camera.main;
+			}
         }
 	}
 
