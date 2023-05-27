@@ -11417,6 +11417,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 1483552519}
+  camera: {fileID: 0}
 --- !u!65 &889770021
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18012,7 +18013,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1295782637}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 434.29, y: 24.9, z: 94.66}
+  m_LocalPosition: {x: 434.14, y: 24.9, z: 94.66}
   m_LocalScale: {x: 2, y: 3, z: 10}
   m_ConstrainProportionsScale: 0
   m_Children: []
